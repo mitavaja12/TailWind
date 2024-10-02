@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Demo Lopez</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="shortcut icon" href="../image/favicon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<!-- header -->
+<nav class="flex justify-between items-center p-10 bg-white shadow-md">
+        <div class="text-2xl font-bold text-gray-800">
+            <img src="../image/logo.png" alt="">
+        </div>
+        <ul class="flex space-x-6">
+          <li><a href="./index.html" class="text-gray-800 text-2xl px-3 py-2 hover:text-orange-200">Home</a></li>
+          <li><a href="./shop.html" class="text-gray-800 text-2xl px-3 py-2 hover:text-orange-200">Shop</a></li>
+          <li><a href="./product.html" class="text-gray-800 text-2xl px-3 py-2 hover:text-orange-200">Product</a></li>
+          <li><a href="./blog.html" class="text-gray-800 text-2xl px-3 py-2 hover:text-orange-200">Blog</a></li>
+          <li><a href="./about.html" class="text-gray-800 text-2xl px-3 py-2 hover:text-orange-200">About Us</a></li>
+          <li><a href="./contact.html" class="text-gray-800 text-2xl px-3 py-2 hover:text-orange-200">Contact Us</a></li>
+        </ul>
+        <div class="flex space-x-4">
+          <a href="#" class="text-gray-800 text-2xl"><i class="fas fa-search"></i></a>
+          <a href="#" class="text-gray-800 text-2xl"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+</nav>
+
+ <!-- Banner -->
+ <div class="mb-8">
+    <div class="text-white text-center py-16 bg-[url('/image/shop-banner.png')]">
+        <h1 class="text-4xl font-bold mb-3">Contact</h1>
+        <a href="./index.html" class="text-white text-center">HOME / </a>
+        <a href="./contact.html" class="text-white text-center">CONTACT</a>
+    </div>
+</div>
+
+<!-- map -->
+<section class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+    <div class="grid grid-cols-2">
+    <div class="mt-8 bg-white shadow overflow-hidden sm:rounded-lg">
+        <div class="px-4 py-5 sm:p-6">
+            <div class="relative h-96 w-[800px]">
+                <iframe class="absolute inset-0 w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.516445835739!2d-122.33550408462365!3d47.6080131791847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab5234d5b71%3A0xa9db564f4b5a94fb!2sPike%20Place%20Market!5e0!3m2!1sen!2sus!4v1626350741854!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <p class="text-red-500 mt-2">This page can't load Google Maps correctly.</p>
+        </div>
+    </div>
+    <div class="mt-8 ml-40">LOCATION & DETAILS
+        <h5 class="mt-10"><i class="fa-solid fa-location-dot text-orange-200"></i> 
+            Address: Your address goes here...</h5>
+        <h5 class="mt-4"><i class="fa-solid fa-location-dot text-orange-200"></i> 
+                Address: Your address goes here...</h5>
+        <h5 class="mt-4"><i class="fa-solid fa-location-dot text-orange-200"></i> 
+                    Address: Your address goes here...</h5>
+    </div>
+</div>
+
+    
+    
+</section>
+
+<!-- form -->
+<section class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+    <div class="bg-white shadow-md rounded-lg p-6">
+        <h2 class="text-2xl font-bold mb-6">CONTACT INFORMATION</h2>
+        <form action="#" method="POST">
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name*</label>
+                    <input type="text" name="name" id="name" class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email*</label>
+                    <input type="email" name="email" id="email" class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                </div>
+                <div>
+                    <label for="telephone" class="block text-sm font-medium text-gray-700">Telephone</label>
+                    <input type="tel" name="telephone" id="telephone" class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                </div>
+                <div>
+                    <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+                    <input type="text" name="subject" id="subject" class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="comment" class="block text-sm font-medium text-gray-700">Comment*</label>
+                    <textarea name="comment" id="comment" rows="4" class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"></textarea>
+                </div>
+            </div>
+            <div class="mt-6">
+                <button type="submit" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500">SEND MESSAGE</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="bg-gray-100 py-8 mt-20">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-between">
+            <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                <h2 class="font-semibold text-lg mb-4">
+                    <img src="../image/logo.png" alt="">
+                </h2>
+                <p class="text-gray-700">Ezone is a Multipurpose Powerful Design for your eCommerce Business</p>
+                <div class="flex mt-4 space-x-4">
+                    <a href="#" class="text-gray-600 hover:text-gray-800"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-gray-800"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-gray-800"><i class="fab fa-pinterest"></i></a>
+                    <a href="#" class="text-gray-600 hover:text-gray-800"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                <h2 class="font-semibold text-lg mb-4">MY ACCOUNT</h2>
+                <ul class="text-gray-700">
+                    <li><a href="#" class="hover:text-orange-200">My account</a></li>
+                    <li><a href="#" class="hover:text-orange-200">Wishlist</a></li>
+                    <li><a href="#" class="hover:text-orange-200">Order Tracking</a></li>
+                    <li><a href="#" class="hover:text-orange-200">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-orange-200">Shipping Information</a></li>
+                </ul>
+            </div>
+            <div class="w-full md:w-1/4 mb-6 md:mb-0">
+                <h2 class="font-semibold text-lg mb-4">QUICK LINKS</h2>
+                <ul class="text-gray-700">
+                    <li><a href="#" class="hover:text-orange-200">New User</a></li>
+                    <li><a href="#" class="hover:text-orange-200">Help Center</a></li>
+                    <li><a href="#" class="hover:text-orange-200">Refund Policy</a></li>
+                    <li><a href="#" class="hover:text-orange-200">Report Spam</a></li>
+                    <li><a href="#" class="hover:text-orange-200">Account</a></li>
+                </ul>
+            </div>
+            <div class="w-full md:w-1/4">
+                <h2 class="font-semibold text-lg mb-4">CONTACT</h2>
+                <p class="text-gray-700">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is dummy.</p>
+                <form class="mt-4">
+                    <input type="email" placeholder="email@example.com" class="px-4 py-2 border border-gray-300 rounded w-full mb-4">
+                </form>
+                <p class="mt-4 text-gray-700"> <i class="fa-solid fa-location-dot pr-2"></i>77 Seventh avenue USA 12555.</p>
+                <p class="text-gray-700"> <i class="fa-solid fa-headphones pr-2"></i>123 456 789 or 123 456 789</p>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-200 py-4 mt-8">
+        <div class="container mx-auto px-4">
+            <p class="text-gray-700 text-center">Copyright © 2021 HasThemes | Built with Lopez by HasThemes.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
